@@ -2,7 +2,7 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (max-width: 400) and (min-width: 576px) { 
     .col-sm-12 {
         width: 100%; 
         padding: 1rem;
@@ -76,30 +76,37 @@
     }
 
     h2{
-        font-size: 20px;  
+        font-size: 40px;  
         padding-top: 2rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 25%;
+        font-size: 50px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
+        
     }
     
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 25%;
-    }
+    
     h3{
         font-size: 25px;
         color: #FFFFFF;
         text-align: center;
         padding-top: 20%;
+    }
+    .posvector{
+        position:absolute;
+        top: 20rem;
+    }
+    .vector2{
+        width: 100%;
+        height: auto;
+        position: static;
+        /* bottom: 30%; */
+        top: 26rem;
     }
  }
 
@@ -146,32 +153,36 @@
     }
 
     h2{
-        font-size: 25px;  
+        font-size: 45px;  
         padding-top: 6rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 35px;
+        font-size: 55px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
     }
 
+    .posvector{
+        position:static;
+        /* top: 20%; */
+    }
     .vector2{
         width: 100%;
         height: auto;
         position: absolute;
-        top: 35%;
+        /* bottom: 30%; */
+        top: 22rem;
     }
-
-    
+        
     h3{
         font-size: 25px;
         color: #FFFFFF;
         text-align: center;
-        padding-top: 10%;
+        padding-top: 20%;
     }
     p{
         font-size: 20px;
@@ -179,6 +190,7 @@
         text-align: center;
         color: #FFFFFF;
     }
+    
     
 }
 
@@ -207,18 +219,42 @@
         height: auto;
     }
     h2{
-        font-size: 200%;  
+        font-size: 45px;  
         padding-top: 6rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 250%;
+        font-size: 55px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
     }
+    .posvector{
+        position:static;
+        /* top: 20%; */
+    }
+    .vector2{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        /* bottom: 30%; */
+        top: 22rem;
+    }
+    h3{
+        font-size: 30px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 25%;
+    }
+    p{
+        font-size: 25px;
+        padding: 1rem;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
     
   }
 
@@ -240,24 +276,34 @@
     
     
     }
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 25%;
-    }
+    
     h2{
-        font-size: 200%;  
-        padding-top: 4rem;
+        font-size: 45px;  
+        padding-top: 0.5rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 250%;
+        font-size: 55px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
+    }
+    .posvector{
+        position:static;
+        /* top: 20%; */
+    }
+    .vector2{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        /* bottom: 30%; */
+        top: 26rem;
+    }
+    h6{
+        font-size: 1.5rem;
+        color: white;
     }
   }
 
@@ -268,6 +314,7 @@
         height: auto;
         position: relative;
         left: 15%;
+        overflow-y: hidden;
     }
     .image-person{
         display: block;
@@ -309,5 +356,27 @@
         text-align: center;
         color: #FFFFFF;
     }
+    .posvector{
+        position:static;
+        /* top: 20%; */
+    }
+    .vector2{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        /* bottom: 30%; */
+        top: 26rem;
+    }
+    h6{
+        font-size: 2rem;
+        color: white;
+    }
+    .img-portafolio{
+        padding: 1rem;
+        width: 350px;
+        
+        
+    }
+    }
     
-  }
+  

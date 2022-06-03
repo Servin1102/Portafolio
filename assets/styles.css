@@ -8,12 +8,14 @@
 body {
     background-color: #020403;
     font-family: 'Rubik', sans-serif;
+    position: relative;
 }
 
 .container {
     width: 90%;
     max-width: 1080px;
     margin: auto;
+   
     /* position: relative; */
 } 
 
@@ -107,6 +109,13 @@ ul {
     text-align: right;
 }
 
+.text-left{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
 .button-menu{
     background-color: transparent;
     border: none;
@@ -162,17 +171,18 @@ nav {
 /* TITULO E ICONOS */
 
 h2{
-    font-size: 120%;  
+    font-size: 30px;  
     padding-top: 2rem;
     text-align: center;
     color: #ADADAD;
 }
 
 h1{
-    font-size: 200%;
+    font-size: 50px;
     color: white;
     text-align: center;
     padding-top: 0.5rem;
+    
 }
 
 /* iconos */
@@ -191,13 +201,18 @@ h1{
 
 /* VECTOR2 */
 
-/* .vector2{
+.posvector{
+    position:absolute;
+    top: 26rem;
+}
+.vector2{
     width: 100%;
     height: auto;
-    position: absolute;
-    padding-top: 0;
-    
-} */
+    position: static;
+    /* bottom: 23rem; */
+}
+
+
 
 /* ACERCA DE MI */
 h3{
@@ -221,12 +236,57 @@ p{
 }
 
 /* Habilidades */
-.card{
+.icon-habilidades{
+    border: solid 3px #353535;
+    background-color: #353535;
+    border-radius: 100px;
+    width: 5rem;
+    padding: 0.5rem;
+}
+.icon-contacto{
+    border: solid 1px white;
+    border-radius: 100px;
+    width: 5rem;
+    padding: 01rem;
+}
+.card {
     text-align: center;
-    display: flex;
-    background-color: antiquewhite;
+    background-color: transparent;
+    color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 50%;
     height: 100%;
 }
+
+/* .vector3{
+    position: absolute;
+    top: 65%;
+    right: 0;
+    left: 70%;
+    float: inline-end;
+   width: 10rem;
+
+} */
+
+/* mis experiencias */
+.border{
+    border-bottom: 0.5px solid grey;
+    width: 50%;
+    padding: none;
+}
+
+h6{
+    font-size: 1rem;
+    color: white;
+}
+
+.img-portafolio{
+    padding: 1rem;
+    width: 300px;
+    
+    
+}
+.foot{
+    border-top: solid 2px white;
+}
+
