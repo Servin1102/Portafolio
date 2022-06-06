@@ -147,7 +147,7 @@
         position: relative;
         width: 30%;
         top: 5rem;
-        left: 33.33%;
+        left: 36%;
     
     
     }
@@ -212,7 +212,7 @@
         position: relative;
         width: 25%;
         top: 5rem;
-        left: 33.33%;
+        left: 40%;
     }
     .icon img{
         width: 100px;
@@ -271,8 +271,8 @@
         justify-content: center;
         position: absolute;
         width: 25%;
-        top: 6rem;
-        left: 33.33%;
+        top: 6.5rem;
+        left: 40%;
     
     
     }
@@ -305,6 +305,11 @@
         font-size: 1.5rem;
         color: white;
     }
+
+    .img-portafolio{
+        padding: 1rem;
+        width: 400px;   
+    }
   }
 
   @media (min-width: 1389px)  {
@@ -313,16 +318,16 @@
         width: 100%;
         height: auto;
         position: relative;
-        left: 15%;
-        overflow-y: hidden;
     }
     .image-person{
         display: block;
         justify-content: center;
         position: absolute;
-        width: 20%;
-        top: 5rem;
-        left: 42%;
+        width: 25%;
+        top: 6.5rem;
+        left: 40%;
+    
+    
     }
     h2{
         font-size: 50px;  

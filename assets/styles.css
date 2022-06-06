@@ -282,9 +282,18 @@ h6{
 
 .img-portafolio{
     padding: 1rem;
-    width: 300px;
-    
-    
+    width: 300px;   
+}
+
+.img-center{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
 }
 .foot{
     border-top: solid 2px white;
