@@ -197,6 +197,12 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
     /* FOTO Y FIRST VECTOR */
 
     .vector1{
@@ -254,6 +260,10 @@
         text-align: center;
         color: #FFFFFF;
     }
+    .img-portafolio{
+        padding: 1rem;
+        width: 400px;   
+    }
     
     
   }
@@ -308,7 +318,8 @@
 
     .img-portafolio{
         padding: 1rem;
-        width: 400px;   
+        width: 450px;
+        height: 450;   
     }
   }
 
@@ -370,7 +381,7 @@
         height: auto;
         position: absolute;
         /* bottom: 30%; */
-        top: 26rem;
+        top: 28rem;
     }
     h6{
         font-size: 2rem;
@@ -378,7 +389,7 @@
     }
     .img-portafolio{
         padding: 1rem;
-        width: 350px;
+        width: 450px;
         
         
     }

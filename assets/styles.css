@@ -281,8 +281,21 @@ h6{
 }
 
 .img-portafolio{
-    padding: 1rem;
+    
     width: 300px;   
+} 
+
+.portfolio-container {
+    padding: 0 10%;
+}
+
+.portfolio-img {
+    max-width: 100%;
+}
+
+.portfolio-img-container {
+    display: flex;
+    justify-content: center;
 }
 
 .img-center{
