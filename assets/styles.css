@@ -16,7 +16,7 @@ body {
     max-width: 1080px;
     margin: auto;
    
-    /* position: relative; */
+   
 } 
 
 .row {
@@ -150,12 +150,7 @@ nav {
 
 /* FOTO Y FIRST VECTOR */
 
-.vector1{
-    padding: 1rem;
-    width: 100%;
-    height: auto;
-    position: absolute;
-}
+
 
 .image-person{
     display: block;
@@ -167,18 +162,25 @@ nav {
 
 
 }
+.vector_bg1{
+    background-image: url(../img/firstvector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+}
 
 /* TITULO E ICONOS */
 
 h2{
-    font-size: 30px;  
+    font-size: 25px;  
     padding-top: 2rem;
     text-align: center;
     color: #ADADAD;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
     padding-top: 0.5rem;
@@ -202,16 +204,15 @@ h1{
 /* VECTOR2 */
 
 .posvector{
-    position:absolute;
-    top: 26rem;
+    position: relative;
+    /* width: 110%;*/
+    background-image: url("../finalvector.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-size: cover;
+   
 }
-.vector2{
-    width: 100%;
-    height: auto;
-    position: static;
-    /* top: 23rem; */
-}
-
 
 
 /* ACERCA DE MI */
@@ -258,15 +259,7 @@ p{
     height: 100%;
 }
 
-/* .vector3{
-    position: absolute;
-    top: 65%;
-    right: 0;
-    left: 70%;
-    float: inline-end;
-   width: 10rem;
 
-} */
 
 /* mis experiencias */
 .border{

@@ -97,17 +97,7 @@
         text-align: center;
         padding-top: 20%;
     }
-    .posvector{
-        position:absolute;
-        top: 20rem;
-    }
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: static;
-        /* bottom: 30%; */
-        top: 26rem;
-    }
+    
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -134,49 +124,32 @@
 
     /* FOTO Y FIRST VECTOR */
 
-    .vector1{
-        padding: 4rem;
-        width: 100%;
-        height: auto;
-        position: absolute;
+    .vector_bg1{
+        background-image: url(../img/firstvector.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        /* padding-top: 5rem; */
     }
     
-    .image-person{
-        display: block;
-        justify-content: center;
-        position: relative;
-        width: 30%;
-        top: 5rem;
-        left: 36%;
     
-    
-    }
 
     h2{
-        font-size: 45px;  
+        font-size: 25px;
+        font-weight: bold;  
         padding-top: 6rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 55px;
+        font-size: 40px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
     }
 
-    .posvector{
-        position:static;
-        /* top: 20%; */
-    }
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        /* bottom: 30%; */
-        top: 22rem;
-    }
+    
         
     h3{
         font-size: 25px;
@@ -185,7 +158,7 @@
         padding-top: 20%;
     }
     p{
-        font-size: 20px;
+        font-size: 18px;
         padding: 1rem;
         text-align: center;
         color: #FFFFFF;
@@ -205,34 +178,34 @@
     }
     /* FOTO Y FIRST VECTOR */
 
-    .vector1{
-        padding: 4rem;
-        width: 100%;
-        height: auto;
-        position: absolute;
-    }
+    
     
     .image-person{
-        display: block;
-        justify-content: center;
-        position: relative;
-        width: 25%;
-        top: 5rem;
-        left: 40%;
+        margin-top: 1rem;
+        background-image: url(./img/finalvector.svg);
+        background-size: contain;
+        
     }
-    .icon img{
+    .icons img{
         width: 100px;
         height: auto;
     }
+    .icon-habilidades{
+        border: solid 3px #353535;
+        background-color: #353535;
+        border-radius: 100px;
+        width: 6rem;
+        padding: 0.5rem;
+    }
     h2{
-        font-size: 45px;  
+        font-size: 50px;  
         padding-top: 6rem;
         text-align: center;
         color: #ADADAD;
     }
     
     h1{
-        font-size: 55px;
+        font-size: 70px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
@@ -260,86 +233,26 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .img-portafolio{
-        padding: 1rem;
-        width: 400px;   
+    /* .portfolio-img {
+        max-width: 100%;
     }
-    
-    
-  }
-
-/*  Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .vector1{
-        padding: 4rem;
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .image-person{
-        display: block;
-        justify-content: center;
-        position: absolute;
-        width: 25%;
-        top: 6.5rem;
-        left: 38%;
-    
-    
-    }
-    
-    h2{
-        font-size: 45px;  
-        padding-top: 0.5rem;
-        text-align: center;
-        color: #ADADAD;
-    }
-    
-    h1{
-        font-size: 55px;
-        color: white;
-        text-align: center;
-        padding-top: 0.5rem;
-    }
-    .posvector{
-        position:static;
-        /* top: 20%; */
-    }
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        /* bottom: 30%; */
-        top: 26rem;
-    }
-    h6{
-        font-size: 1.5rem;
-        color: white;
-    }
-
-    .img-portafolio{
+     */
+     .img-portafolio{
         padding: 1rem;
         width: 450px;
         height: 450;   
     }
   }
 
-  @media (min-width: 1389px)  {
-    .vector1{
-        padding: 4rem;
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
     .image-person{
-        display: block;
-        justify-content: center;
-        position: absolute;
-        width: 25%;
-        top: 6.5rem;
-        left: 40%;
-    
-    
+        margin-top: 1rem;
+        background-image: url(./img/finalvector.svg);
+        background-size: contain;
+        
     }
+    
     h2{
         font-size: 50px;  
         padding-top: 0.5rem;
@@ -348,51 +261,23 @@
     }
     
     h1{
-        font-size: 80px;
+        font-size: 70px;
         color: white;
         text-align: center;
         padding-top: 0.5rem;
-    }
-
-    /* .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: none;
-    } */
-    h3{
-        font-size: 40px;
-        color: #FFFFFF;
-        text-align: center;
-        padding-top: 35%;
-    }
-    p{
-        font-size: 35px;
-        padding: 1rem;
-        text-align: center;
-        color: #FFFFFF;
     }
     .posvector{
         position:static;
         /* top: 20%; */
     }
-    .vector2{
-        width: 100%;
-        height: auto;
-        position: absolute;
-        /* bottom: 30%; */
-        top: 28rem;
-    }
+    
     h6{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
     }
-    .img-portafolio{
-        padding: 1rem;
-        width: 450px;
-        
-        
-    }
-    }
+
     
-  
+
+    
+  }
+/*  */
